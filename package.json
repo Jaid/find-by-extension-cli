@@ -6,23 +6,23 @@
   "dependencies": {
     "@absolunet/fsp": "^1.6.1",
     "@absolunet/fss": "^1.6.1",
-    "@babel/runtime": "^7.4.5",
+    "@babel/runtime": "^7.5.0",
     "debug": "^4.1.1",
     "ensure-start": "^1.0.4",
     "yargs": "^13.2.4"
   },
   "devDependencies": {
-    "acorn": "^6.1.1",
+    "acorn": "^6.2.0",
     "ajv": "^6.10.0",
     "babel-jest": "^24.8.0",
-    "babel-preset-jaid": "^6.7.0",
-    "caniuse-lite": "^1.0.30000974",
+    "babel-preset-jaid": "^6.8.1",
+    "caniuse-lite": "^1.0.30000979",
     "coffee": "^5.2.1",
-    "eslint": "^5.16.0",
-    "eslint-config-jaid": "^1.14.0",
+    "eslint": "^6.0.1",
+    "eslint-config-jaid": "^1.18.0",
     "jest": "^24.8.0",
     "rimraf": "^2.6.3",
-    "webpack-config-jaid": "^5.7.0"
+    "webpack-config-jaid": "^5.20.0"
   },
   "scripts": {
     "clean": "rimraf dist/",
