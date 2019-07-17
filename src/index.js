@@ -6,11 +6,17 @@ import fss from "@absolunet/fss"
 import ensureStart from "ensure-start"
 
 const job = async ({extension, cwd, fullPath, all}) => {
-  const suffix = ensureStart(extension, ".")
   const entries = await fsp.readdir(cwd)
-  let matches = entries
-  |> #.filter(name => name.endsWith(suffix))
-  |> #.filter(name => fss.stat(path.join(cwd, name)).isFile())
+  const fileEntries = entries.filter(name => fss.stat(path.join(cwd, name)).isFile())
+  let matches = []
+  for (const suffix of extension.split("|")) {
+    const normalizedSuffix = ensureStart(suffix, ".")
+    for (const fileEntry of fileEntries) {
+      if (fileEntry.endsWith(normalizedSuffix)) {
+        matches.push(fileEntry)
+      }
+    }
+  }
   if (matches.length === 0) {
     process.exit(1)
   }
