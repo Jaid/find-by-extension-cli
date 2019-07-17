@@ -1,37 +1,24 @@
-import path from "path"
-
 import yargs from "yargs"
-import fsp from "@absolunet/fsp"
-import fss from "@absolunet/fss"
-import ensureStart from "ensure-start"
+import findByExtension from "find-by-extension"
+import ensureArray from "ensure-array"
 
-const job = async ({extension, cwd, fullPath, all}) => {
-  const entries = await fsp.readdir(cwd)
-  const fileEntries = entries.filter(name => fss.stat(path.join(cwd, name)).isFile())
-  let matches = []
-  for (const suffix of extension.split("|")) {
-    const normalizedSuffix = ensureStart(suffix, ".")
-    for (const fileEntry of fileEntries) {
-      if (fileEntry.endsWith(normalizedSuffix)) {
-        matches.push(fileEntry)
-      }
-    }
-  }
-  if (matches.length === 0) {
+const job = ({extension, cwd, absolute, all}) => {
+  const extensions = extension.split("|")
+  const result = findByExtension(extensions, {
+    cwd,
+    absolute,
+    all,
+  })
+  if (result === false) {
     process.exit(1)
   }
-  if (fullPath) {
-    matches = matches.map(name => path.join(cwd, name))
-  }
-  if (all) {
-    process.stdout.write(matches.join("\n"))
-  } else {
-    process.stdout.write(matches[0])
-  }
+  const files = ensureArray(result)
+  process.stdout.write(files.join("\n"))
 }
 
 const builder = {
-  "full-path": {
+  absolute: {
+    alias: "full-path",
     default: false,
     type: "boolean",
   },
@@ -40,6 +27,7 @@ const builder = {
     type: "boolean",
   },
   cwd: {
+    alias: "directory",
     default: process.cwd(),
     type: "string",
   },

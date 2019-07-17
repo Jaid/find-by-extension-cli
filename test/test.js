@@ -9,7 +9,7 @@ it("should run", () => coffee.fork(main, ["gitignore"])
   .expect("stdout", ".gitignore")
   .end())
 
-it("should collect multiple files", () => coffee.fork(main, ["js", "--all", "--full-path"])
+it("should collect multiple files", () => coffee.fork(main, ["js", "--all", "--absolute"])
   .expect("code", 0)
   .expect("stdout", /\n/s)
   .end())

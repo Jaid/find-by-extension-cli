@@ -4,11 +4,9 @@
   "version": "2.1.0",
   "author": "Jaid <jaid.jsx@gmail.com> (https://github.com/Jaid)",
   "dependencies": {
-    "@absolunet/fsp": "^1.6.1",
-    "@absolunet/fss": "^1.6.1",
     "@babel/runtime": "^7.5.4",
-    "debug": "^4.1.1",
-    "ensure-start": "^1.0.4",
+    "ensure-array": "^1.0.0",
+    "find-by-extension": "^1.1.0",
     "yargs": "^13.3.0"
   },
   "devDependencies": {
