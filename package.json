@@ -6,21 +6,21 @@
   "dependencies": {
     "@absolunet/fsp": "^1.6.1",
     "@absolunet/fss": "^1.6.1",
-    "@babel/runtime": "^7.5.2",
+    "@babel/runtime": "^7.5.4",
     "debug": "^4.1.1",
     "ensure-start": "^1.0.4",
-    "yargs": "^13.2.4"
+    "yargs": "^13.3.0"
   },
   "devDependencies": {
     "acorn": "^6.2.0",
-    "ajv": "^6.10.1",
+    "ajv": "^6.10.2",
     "babel-jest": "^24.8.0",
-    "babel-preset-jaid": "^6.8.1",
+    "babel-preset-jaid": "^6.8.2",
     "browserslist-config-jaid-node": "^2.2.1",
-    "caniuse-lite": "^1.0.30000981",
+    "caniuse-lite": "^1.0.30000984",
     "coffee": "^5.2.1",
     "eslint": "^6.0.1",
-    "eslint-config-jaid": "^1.18.0",
+    "eslint-config-jaid": "^1.19.0",
     "jest": "^24.8.0",
     "rimraf": "^2.6.3",
     "webpack-config-jaid": "^5.22.0"
