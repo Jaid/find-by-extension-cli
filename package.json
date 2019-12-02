@@ -35,5 +35,6 @@
     "test:debug": "DEBUG=\"$(basename $PWD),$(basename $PWD):*\" NODE_ENV=test node --inspect=9229 node_modules/jest/bin/jest.js --runInBand",
     "prepareActionJest": "npm run build:prod"
   },
-  "name": "find-by-extension-cli"
+  "name": "find-by-extension-cli",
+  "description": "Prints files with specified extension in current directory"
 }
