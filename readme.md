@@ -3,6 +3,15 @@
 
 Prints files with specified extension in current directory
 
+## Installation
+<a href='https://npmjs.com/package/find-by-extension-cli'><img alt='npm logo' src='https://raw.githubusercontent.com/npm/logos/master/npm%20logo/npm-logo-red.png' height=16/></a>
+```bash
+npm install --global find-by-extension-cli@^
+```
+<a href='https://yarnpkg.com/package/find-by-extension-cli'><img alt='Yarn logo' src='https://raw.githubusercontent.com/yarnpkg/assets/master/yarn-kitten-full.png' height=24/></a>
+```bash
+yarn global add find-by-extension-cli@^
+```
 
 
 ## Try it out
