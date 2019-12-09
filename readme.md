@@ -4,31 +4,16 @@
 Prints files with specified extension in current directory
 
 ## Installation
-<a href='https://npmjs.com/package/find-by-extension-cli'><img alt='npm logo' src='https://raw.githubusercontent.com/npm/logos/master/npm%20logo/npm-logo-red.png' height=16/></a>
+<a href='https://npmjs.com/package/find-by-extension-cli'><img alt='npm logo' src='https://github.com/Jaid/action-readme/raw/master/images/base-assets/npm.png'/></a>
 ```bash
-npm install --global find-by-extension-cli@^
+npm install --global find-by-extension-cli@^3.0.0
 ```
-<a href='https://yarnpkg.com/package/find-by-extension-cli'><img alt='Yarn logo' src='https://raw.githubusercontent.com/yarnpkg/assets/master/yarn-kitten-full.png' height=24/></a>
+<a href='https://yarnpkg.com/package/find-by-extension-cli'><img alt='Yarn logo' src='https://github.com/Jaid/action-readme/raw/master/images/base-assets/yarn.png'/></a>
 ```bash
-yarn global add find-by-extension-cli@^
+yarn global add find-by-extension-cli@^3.0.0
 ```
 
 
-## Try it out
-Open a browser's JavaScript console and execute:
-
-```javascript
-const scriptElement = document.createElement("script");
-scriptElement.setAttribute("type","text/javascript");
-scriptElement.setAttribute("src","https://unpkg.com/find-by-extension-cli@3.0.0");
-document.querySelector("head").appendChild(scriptElement);
-```
-
-The module is now loaded in a variable.
-
-```javascript
-typeof find-by-extension-cli.default
-```
 
 
 ## License
