@@ -1,14 +1,32 @@
 # find-by-extension-cli
 
 
-Prints files with specified extension in current directory
+<a href="https://raw.githubusercontent.com/Jaid/find-by-extension-cli/master/license.txt"><img src="https://img.shields.io/github/license/Jaid/find-by-extension-cli?style=flat-square" alt="License"/></a>  
+<a href="https://actions-badge.atrox.dev/Jaid/find-by-extension-cli/goto"><img src="https://img.shields.io/endpoint.svg?style=flat-square&url=https%3A%2F%2Factions-badge.atrox.dev%2FJaid%2Ffind-by-extension-cli%2Fbadge" alt="Build status"/></a> <a href="https://github.com/Jaid/find-by-extension-cli/commits"><img src="https://img.shields.io/github/commits-since/Jaid/find-by-extension-cli/v3.0.0?style=flat-square&logo=github" alt="Commits since v3.0.0"/></a> <a href="https://github.com/Jaid/find-by-extension-cli/commits"><img src="https://img.shields.io/github/last-commit/Jaid/find-by-extension-cli?style=flat-square&logo=github" alt="Last commit"/></a> <a href="https://github.com/Jaid/find-by-extension-cli/issues"><img src="https://img.shields.io/github/issues/Jaid/find-by-extension-cli?style=flat-square&logo=github" alt="Issues"/></a>  
+<a href="https://npmjs.com/package/find-by-extension-cli"><img src="https://img.shields.io/npm/v/find-by-extension-cli?style=flat-square&logo=npm&label=latest%20version" alt="Latest version on npm"/></a> <a href="https://github.com/Jaid/find-by-extension-cli/network/dependents"><img src="https://img.shields.io/librariesio/dependents/npm/find-by-extension-cli?style=flat-square&logo=npm" alt="Dependents"/></a> <a href="https://npmjs.com/package/find-by-extension-cli"><img src="https://img.shields.io/npm/dm/find-by-extension-cli?style=flat-square&logo=npm" alt="Downloads"/></a>
+
+**Prints files with specified extension in current directory**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Installation
-<a href='https://npmjs.com/package/find-by-extension-cli'><img alt='npm logo' src='https://github.com/Jaid/action-readme/raw/master/images/base-assets/npm.png'/></a>
+<a href="https://npmjs.com/package/find-by-extension-cli"><img src="https://img.shields.io/badge/npm-find--by--extension--cli-C23039?style=flat-square&logo=npm" alt="find-by-extension-cli on npm"/></a>
 ```bash
 npm install --global find-by-extension-cli@^3.0.0
 ```
-<a href='https://yarnpkg.com/package/find-by-extension-cli'><img alt='Yarn logo' src='https://github.com/Jaid/action-readme/raw/master/images/base-assets/yarn.png'/></a>
+<a href="https://yarnpkg.com/package/find-by-extension-cli"><img src="https://img.shields.io/badge/Yarn-find--by--extension--cli-2F8CB7?style=flat-square&logo=yarn&logoColor=white" alt="find-by-extension-cli on Yarn"/></a>
 ```bash
 yarn global add find-by-extension-cli@^3.0.0
 ```
@@ -16,11 +34,44 @@ yarn global add find-by-extension-cli@^3.0.0
 
 
 
+## CLI Usage
+After installing package `find-by-extension-cli` globally, you can use its command line interface.
+```bash
+find-by-extension-cli
+```
+For usage instructions:
+```bash
+find-by-extension-cli --help
+```
+
+
+
+
+## Development
+
+
+
+Setting up:
+```bash
+git clone git@github.com:Jaid/find-by-extension-cli.git
+cd find-by-extension-cli
+npm install
+```
+Testing:
+```bash
+npm run test:dev
+```
+Testing in production environment:
+```bash
+npm run test
+```
+
+
 ## License
 ```text
 MIT License
 
-Copyright © 2019, Jaid <jaid.jsx@gmail.com> (github.com/jaid)
+Copyright © 2020, Jaid <jaid.jsx@gmail.com> (github.com/jaid)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
