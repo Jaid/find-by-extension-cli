@@ -36,5 +36,6 @@
     "prepareActionJest": "npm run build:prod"
   },
   "name": "find-by-extension-cli",
-  "description": "Prints files with specified extension in current directory"
+  "description": "Prints files with specified extension in current directory",
+  "funding": "https://github.com/sponsors/jaid"
 }
