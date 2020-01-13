@@ -1,9 +1,9 @@
 # find-by-extension-cli
 
 
-<a href="https://raw.githubusercontent.com/Jaid/find-by-extension-cli/master/license.txt"><img src="https://img.shields.io/github/license/Jaid/find-by-extension-cli?style=flat-square" alt="License"/></a>  
-<a href="https://actions-badge.atrox.dev/Jaid/find-by-extension-cli/goto"><img src="https://img.shields.io/endpoint.svg?style=flat-square&url=https%3A%2F%2Factions-badge.atrox.dev%2FJaid%2Ffind-by-extension-cli%2Fbadge" alt="Build status"/></a> <a href="https://github.com/Jaid/find-by-extension-cli/commits"><img src="https://img.shields.io/github/commits-since/Jaid/find-by-extension-cli/v3.0.0?style=flat-square&logo=github" alt="Commits since v3.0.0"/></a> <a href="https://github.com/Jaid/find-by-extension-cli/commits"><img src="https://img.shields.io/github/last-commit/Jaid/find-by-extension-cli?style=flat-square&logo=github" alt="Last commit"/></a> <a href="https://github.com/Jaid/find-by-extension-cli/issues"><img src="https://img.shields.io/github/issues/Jaid/find-by-extension-cli?style=flat-square&logo=github" alt="Issues"/></a>  
-<a href="https://npmjs.com/package/find-by-extension-cli"><img src="https://img.shields.io/npm/v/find-by-extension-cli?style=flat-square&logo=npm&label=latest%20version" alt="Latest version on npm"/></a> <a href="https://github.com/Jaid/find-by-extension-cli/network/dependents"><img src="https://img.shields.io/librariesio/dependents/npm/find-by-extension-cli?style=flat-square&logo=npm" alt="Dependents"/></a> <a href="https://npmjs.com/package/find-by-extension-cli"><img src="https://img.shields.io/npm/dm/find-by-extension-cli?style=flat-square&logo=npm" alt="Downloads"/></a>
+<a href="https://raw.githubusercontent.com/jaid/find-by-extension-cli/master/license.txt"><img src="https://img.shields.io/github/license/jaid/find-by-extension-cli?style=flat-square" alt="License"/></a> <a href="https://github.com/sponsors/jaid"><img src="https://img.shields.io/badge/<3-Sponsor-FF45F1?style=flat-square" alt="Sponsor find-by-extension-cli"/></a>
+<a href="https://actions-badge.atrox.dev/jaid/find-by-extension-cli/goto"><img src="https://img.shields.io/endpoint.svg?style=flat-square&url=https%3A%2F%2Factions-badge.atrox.dev%2Fjaid%2Ffind-by-extension-cli%2Fbadge" alt="Build status"/></a> <a href="https://github.com/jaid/find-by-extension-cli/commits"><img src="https://img.shields.io/github/commits-since/jaid/find-by-extension-cli/v3.0.0?style=flat-square&logo=github" alt="Commits since v3.0.0"/></a> <a href="https://github.com/jaid/find-by-extension-cli/commits"><img src="https://img.shields.io/github/last-commit/jaid/find-by-extension-cli?style=flat-square&logo=github" alt="Last commit"/></a> <a href="https://github.com/jaid/find-by-extension-cli/issues"><img src="https://img.shields.io/github/issues/jaid/find-by-extension-cli?style=flat-square&logo=github" alt="Issues"/></a>  
+<a href="https://npmjs.com/package/find-by-extension-cli"><img src="https://img.shields.io/npm/v/find-by-extension-cli?style=flat-square&logo=npm&label=latest%20version" alt="Latest version on npm"/></a> <a href="https://github.com/jaid/find-by-extension-cli/network/dependents"><img src="https://img.shields.io/librariesio/dependents/npm/find-by-extension-cli?style=flat-square&logo=npm" alt="Dependents"/></a> <a href="https://npmjs.com/package/find-by-extension-cli"><img src="https://img.shields.io/npm/dm/find-by-extension-cli?style=flat-square&logo=npm" alt="Downloads"/></a>
 
 **Prints files with specified extension in current directory**
 
@@ -33,7 +33,6 @@ yarn global add find-by-extension-cli@^3.0.0
 
 
 
-
 ## CLI Usage
 After installing package `find-by-extension-cli` globally, you can use its command line interface.
 ```bash
@@ -53,7 +52,7 @@ find-by-extension-cli --help
 
 Setting up:
 ```bash
-git clone git@github.com:Jaid/find-by-extension-cli.git
+git clone git@github.com:jaid/find-by-extension-cli.git
 cd find-by-extension-cli
 npm install
 ```
