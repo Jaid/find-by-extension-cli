@@ -37,5 +37,9 @@
   },
   "name": "find-by-extension-cli",
   "description": "Prints files with specified extension in current directory",
-  "funding": "https://github.com/sponsors/jaid"
+  "funding": "https://github.com/sponsors/jaid",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaid/find-by-extension-cli"
+  }
 }
