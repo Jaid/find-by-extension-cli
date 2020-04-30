@@ -42,5 +42,13 @@
     "url": "https://github.com/jaid/find-by-extension-cli"
   },
   "homepage": "https://github.com/Jaid/find-by-extension-cli",
-  "keywords": []
+  "keywords": [
+    "cli",
+    "filesystem",
+    "find-by-extension",
+    "fs",
+    "tool",
+    "util",
+    "utility"
+  ]
 }
